@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{ 
+         /* background-color: rgb(55, 0, 255); */
+            /* border: 2px solid red;
+            /* this image is not  herer so olzz find a real image and paste it here. */
+            /* after we upload this image it will get repeat horizontally and vertically. */
+            /* so to control it we have backgroundd repeat property. */
+            /* repeat X- it allows to repeat only in horizontal direction. */
+            /* repeat y-  repeat in vertical direction. */
+            /* no repeat- image doesnt repeat.*/
+            height: 100px;
+            width: 200px;
+            background-image: url('myImage.jpg');
+            background-repeat: repeat-x;
+            /* background size property can be- */
+            /* cover-fits and no empty space remains. */
+            /* contain-fits and image is fully visible. */
+            /* auto-display an original size. */
+            background-size: cover;
+            /* we can set the position of image as well like top down,bottom left,right,left and many more. */
+            /* to learn more go to mdn refrence */
+            background-position: topdown; 
+            /* background attachment is the property to make the attachment. */
+            /* if the attachment is scroll then the background image at the text will scroll together */
+            /* when the attachment is fixed then the background image will be fixed and  text willl scroll.  */
+            /* there are many more attachments as well have the mdn refrence. */
+             background-attachment: scroll;
+             /* back shorthand property-A single pproperty to set multiple background properties. */
+             /* we can also skip some properties. */
+             /* background: red url('index.jpg') norepeat scroll top right; */
+             
+        } 
+        /* background image property-It is used to set an image as the background. */
+        body{
+            /* hello */
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">Lorem, ipsum dolor.dscsd
+    </div>
+
+    
+</body>
+</html>

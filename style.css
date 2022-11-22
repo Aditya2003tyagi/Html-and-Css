@@ -1,0 +1,20 @@
+/* its the style sheet we have make for styling in css chapter 1.html */
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    /* types of color values */
+    /* rgb-It specify color using red,green and blue values. */
+    background: rgb(0, 255, 17);
+    /* instead of rgb we can also usehex and hsl. */
+    /* hex specify color using hex code. for eg-#ff7180 where ff is red,71 is green and 80 is blue */
+    /* hsl specify the color using hsl value.eg-hsl(8%,25%,32%) where it means hue,saturation,lightness. */
+    /* there are also rgba and hsla value which are also used for color.a stands for alpha. */
+    height: 344px;
+    color: red;
+}
+.green{
+    background: green;
+    color: aqua;
+}

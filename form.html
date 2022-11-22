@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- a form is used to collect input  from the user. A form tag is used for it. -->
+    <!-- There are different form elements for different kinds of user input. please see more of them from google. -->
+    <div>
+        <h1>Travel form for our trip.</h1>
+    <form action="form.php"></form>
+    <!-- text and radio is a type of user input and place holder is a attribute. -->
+    <input type="text" placeholder="Enter your name"><br>
+    <!-- label tag is used for labelling. -->
+    <label for="section id A">
+    Section A<input type="radio" value="SectionA" name="Section" id="Sectionid" class="Red" >
+    </label>
+    <label for="Section id B">
+    Section B<input type="radio" value="SectionB" name="Section" id="Sectionid" class="Red" >
+    </label>
+    <label for="Section id C">
+        <!-- to add two colors we should have space in between -->
+       Section C <input type="radio" value="SectionC" name="Section" id="Sectionid" class="Red" ><br>
+    </label>
+    <!-- input: by typing this we can implement check box. -->
+    <!-- id is a unique indentifier and its different for everyone. -->
+    <!-- class is like a house and it can be same for many input types. -->
+   Canteen <input type="checkbox"  id="food canteen" class="Red" name="Canteen"><br>
+    <label for="food canteen"></label>
+    <!-- text area defines a multiline text input.col and rows are attributes which comes automatically during implementation. -->
+    <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Explain why u want to join"></textarea>
+    <!-- select defines a drop down list. -->
+    <select name="Car" id="Car">
+        <!-- option tag helps to give options. -->
+        <option value="NO CAR">Select your car</option>
+        <option value="AUDI">AUDI6</option>
+        <option value="AUDI">AUDI8</option>
+    </select>
+    
+    </div>
+</body>
+</html>

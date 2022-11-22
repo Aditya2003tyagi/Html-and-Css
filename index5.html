@@ -1,0 +1,46 @@
+<!-- making our first css website. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- there are three ways to add css in html. -->
+    <!-- 1.style tag. -->
+    <!-- 2.inline css -->
+    <!-- 3.external css. -->
+    <style>
+        /* # iis used to target id. */
+        /* . is used to target class. */
+        #first{
+            background-color:green;
+        }
+        .bg-blue{
+            background-color:blue;
+            color:white
+        }
+    </style>
+</head>
+<body>
+    <!-- we are assigning a id in div and it can be done by typing div#first then press enter. -->
+    <!-- id cant be repeated.For eg-first can have only one id. -->
+    <div id="first">
+        first
+    </div>
+    <div id="second">
+        second
+    </div>
+    <div>
+        <!-- now section can be implemented by typing section.red. -->
+        <!-- a section can be repeated means like red can have more than one section unlike id. -->
+        <section class="red">
+            red
+        </section>
+        <section class="red bg-blue border-purple">
+            red bg-blue border-purple
+        </section>
+    </div>
+    
+</body>
+</html>
